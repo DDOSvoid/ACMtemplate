@@ -1,0 +1,115 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <style>
+         html {
+             box-sizing: border-box;
+         }
+
+         *, *::before, *::after {
+             box-sizing: inherit; 
+         }
+         
+         body {
+             background-image: url('asset/pic/background.jpg');
+             background-size: cover;
+             background-position: 50% 50%;
+             background-attachment: fixed;
+             background-repeat: no-repeat;
+         }
+         
+         #content {
+             height: 1000px;
+             margin-left: 500px;
+             margin-right: 200px;
+             background-color: white;
+             opacity: 0.8;
+         }
+         
+         #header {
+             float: left;
+             width: 240px;
+             height: 410px;
+             margin-left: 200px;
+             margin-bottom: 30px;
+             background-color: white;
+             opacity: 0.75;
+         }
+
+         #sidebar {
+             float: left;
+             clear: left;
+             width: 240px;
+             height: 410px;
+             padding: 30px;
+             margin-left: 200px;
+             /*margin-bottom: 50px;*/
+             background-color: white;
+             opacity: 0.75;
+         }
+         
+         #footer {
+             clear: both;
+             background-color: white;
+             opacity: 0.75;
+         }
+
+         .centerbox {
+             text-align: center;
+             margin: 0 auto;
+         }
+
+         .centerbox * {
+             margin: 0 auto;
+         }
+
+         #avatar {
+             border-width: thin;
+             border-style: solid;
+             border-color: #d9d9d9;
+             border-radius: 10%;
+             opacity: 0.75;
+             position: relative;
+             margin: 0 auto;
+         }
+
+         #fixed-test {
+             position: fixed;
+             right: 0px;
+             top: 0px;
+         }
+         
+        </style>
+    </head>
+    <body>
+        <header id="header" >
+            <div class="centerbox" style="font-weight: bold;">
+                <a href="http://blog.ddosvoid.com/index.php/test/" > DDOSvoid's blog </a>
+                <img id="avatar" src="asset/pic/avatar.jpg" alt="avatar" width="120" >
+            </div>
+        </header>
+        
+        <aside id="sidebar" >
+            <div>
+                <p> sidebar </p>
+            </div>
+        </aside>
+        
+        <div id="content" >
+            <p> content </p>
+        </div>
+
+        <div id="fixed-test" >
+            <audio controls>
+                <source src="asset/music/无名之歌.mp3" type="audio/mp3" >
+            </audio>
+        </div>
+        
+        <footer id="footer" >
+            <div>
+                <p> footer </p>
+            </div>
+        </footer>
+    </body>
+</html>
