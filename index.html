@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" >
         <title> DDOSvoid's blog </title>
+        <link rel="stylesheet" href="asset/font-awesome-4.7.0/css/font-awesome.min.css">
         <style>
          html {
              box-sizing: border-box;
@@ -56,12 +57,12 @@
              opacity: 0.75;
          }
 
-         .centerbox {
+         .center-box {
              text-align: center;
              margin: 0 auto;
          }
 
-         .centerbox * {
+         .center-box * {
              margin: 0 auto;
          }
 
@@ -80,14 +81,48 @@
              right: 0px;
              top: 0px;
          }
+
+         .sprite * {
+             display: inline-block;
+         }
+
+         .shutdown {
+             width: 32px; height: 32px;
+             background: url('asset/pic/css_sprites.png') -10px -10px;
+         }
+         .sleep {
+             width: 32px; height: 32px;
+             background: url('asset/pic/css_sprites.png') -62px -10px;
+         }
+         .reboot {
+             width: 32px; height: 32px;
+             background: url('asset/pic/css_sprites.png') -10px -62px;
+         }
+         .logoff {
+             width: 32px; height: 32px;
+             background: url('asset/pic/css_sprites.png') -62px -62px;
+         } 
          
         </style>
     </head>
     <body>
         <header id="header" >
-            <div class="centerbox" >
+            <div class="center-box" >
                 <a href="https://ddosvoid.github.io/ACMtemplate/" > DDOSvoid's blog </a>
                 <img id="avatar" src="asset/pic/avatar.jpg" alt="avatar" width="120" >
+            </div>
+            <hr>
+            <div class="center-box" >
+                <div class="sprite">
+                <span class="shutdown" ></span>
+                <span class="sleep" ></span>
+                <span class="reboot" ></span>
+                <span class="logoff" ></span>
+                </div>
+            </div>
+            <hr>
+            <div class="center-box" >
+                <i class="fa fa-hourglass" aria-hidden="true"></i>
             </div>
         </header>
         
