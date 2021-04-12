@@ -1,0 +1,152 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <title> DDOSvoid's blog </title>
+        <link rel="shortcut icon" href="assets/pic/favicon.png" >
+        <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+        <style>
+         html {
+             box-sizing: border-box;
+         }
+
+         *, *::before, *::after {
+             box-sizing: inherit; 
+         }
+         
+         body {
+             background-image: url('assets/pic/background.jpg');
+             background-size: cover;
+             background-position: 50% 50%;
+             background-attachment: fixed;
+             background-repeat: no-repeat;
+         }
+         
+         #content {
+             height: 1000px;
+             margin-left: 500px;
+             margin-right: 200px;
+             background-color: white;
+             opacity: 0.8;
+         }
+         
+         #header {
+             float: left;
+             width: 240px;
+             height: 410px;
+             margin-left: 200px;
+             margin-bottom: 30px;
+             background-color: white;
+             opacity: 0.75;
+         }
+
+         #sidebar {
+             float: left;
+             clear: left;
+             width: 240px;
+             height: 410px;
+             padding: 30px;
+             margin-left: 200px;
+             /*margin-bottom: 50px;*/
+             background-color: white;
+             opacity: 0.75;
+         }
+         
+         #footer {
+             clear: both;
+             background-color: white;
+             opacity: 0.75;
+         }
+
+         .center-box {
+             text-align: center;
+             margin: 0 auto;
+         }
+
+         .center-box * {
+             margin: 0 auto;
+         }
+
+         #avatar {
+             border-width: thin;
+             border-style: solid;
+             border-color: #d9d9d9;
+             border-radius: 10%;
+             opacity: 0.75;
+             position: relative;
+             margin: 0 auto;
+         }
+
+         #fixed-test {
+             position: fixed;
+             right: 0px;
+             top: 0px;
+         }
+
+         .sprite * {
+             display: inline-block;
+         }
+
+         .shutdown {
+             width: 32px; height: 32px;
+             background: url('assets/pic/css_sprites.png') -10px -10px;
+         }
+         .sleep {
+             width: 32px; height: 32px;
+             background: url('assets/pic/css_sprites.png') -62px -10px;
+         }
+         .reboot {
+             width: 32px; height: 32px;
+             background: url('assets/pic/css_sprites.png') -10px -62px;
+         }
+         .logoff {
+             width: 32px; height: 32px;
+             background: url('assets/pic/css_sprites.png') -62px -62px;
+         } 
+         
+        </style>
+    </head>
+    <body>
+        <header id="header" >
+            <div class="center-box" >
+                <a href="https://ddosvoid.github.io/ACMtemplate/" > DDOSvoid's blog </a>
+                <img id="avatar" src="assets/pic/avatar.jpg" alt="avatar" width="120" >
+            </div>
+            <hr>
+            <div class="center-box" >
+                <div class="sprite">
+                    <span class="shutdown" ></span>
+                    <span class="sleep" ></span>
+                    <span class="reboot" ></span>
+                    <span class="logoff" ></span>
+                </div>
+            </div>
+            <hr>
+            <div class="center-box" >
+                <i class="fa fa-hourglass" aria-hidden="true"></i>
+            </div>
+        </header>
+        
+        <aside id="sidebar" >
+            <div>
+                <p> sidebar </p>
+            </div>
+        </aside>
+        
+        <div id="content" >
+            <p> content </p>
+        </div>
+
+        <div id="fixed-test" >
+            <audio controls>
+                <source src="assets/music/Namae no Nai.mp3" type="audio/mp3" >
+            </audio>
+        </div>
+        
+        <footer id="footer" >
+            <div>
+                <p> footer </p>
+            </div>
+        </footer>
+    </body>
+</html>
