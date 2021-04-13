@@ -23,8 +23,8 @@ body {
 
 #main {
     display: flex;
-    align-items: stretch;
     justify-content: space-between;
+    align-items: flex-start;
     margin-left: auto; 
     margin-right: auto;
     width: 75%;
@@ -36,7 +36,7 @@ body {
 }
 
 #header-inner {
-
+    
 }
 
 #site-brand-container {
@@ -73,6 +73,8 @@ body {
 .menu-item-active {
     padding: 8px 20px;
     display: block;
+    color: #000;
+    text-decoration: none;
 }
 
 .menu-item-active .fa {
