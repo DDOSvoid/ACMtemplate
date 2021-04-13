@@ -33,6 +33,7 @@ body {
 
 #header {
     width: 20%;
+    background-color: transparent; 
 }
 
 #header-inner {
@@ -82,30 +83,41 @@ body {
     margin-right: 8px;
 }
 
+#search-bar {
+    margin: 1em 0;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#search-bar form {
+    margin: 0;
+}
+
 #sidebar {
 }
 
+#avatar-box {
+    padding: 1em 0;
+    text-align: center;
+    
+}
+
+#avatar {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-radius: 10%;
+} 
+
 #content {
     width: calc(80% - 12px);
+    padding: 0 1em;
 }
 
 
 #footer {
     background-color: white;
     opacity: 0.9;
-}
-
-
-.center-box {
-    text-align: center;
-}
-
-
-#avatar {
-    border-width: thin;
-    border-style: solid;
-    border-color: #d9d9d9;
-    border-radius: 10%;
 }
 
 
