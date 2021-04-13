@@ -20,18 +20,19 @@ body {
     background-color: white;
     opacity: 0.9;
 }
+
 #main {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
     margin-left: auto; 
     margin-right: auto;
-    width: 1160px;
+    width: 75%;
 }
 
 
 #header {
-    width: 240px;
+    width: 20%;
 }
 
 #header-inner {
@@ -49,22 +50,41 @@ body {
     background-color: #000;
 }
 
+#site-meta {
+    
+}
+
 #brand {
     color: #fff;
     opacity: 1;
     text-decoration: none;
 }
 
-#site-meta {
-    
+#menu-nav {
+    margin: 0;
+    padding: 1em 0;
 }
 
+.menu-item {
+    list-style: none;
+    display: block;
+}
+
+.menu-item-active {
+    padding: 8px 20px;
+    display: block;
+}
+
+.menu-item-active .fa {
+    font-size: 13px;
+    margin-right: 8px;
+}
 
 #sidebar {
 }
 
 #content {
-    width: 908px;
+    width: calc(80% - 12px);
 }
 
 
